@@ -4,8 +4,11 @@
   "description": "node.js logger using winston",
   "main": "index.ts",
   "type": "module",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "ts-node --experimental-specifier-resolution=node test"
+    "test": "ts-node --experimental-specifier-resolution=node test",
+    "build" : "tsc",
+    "prepare" : "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "homepage": "https://github.com/xpcn2015/logger#readme",
   "dependencies": {
     "winston": "^3.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
