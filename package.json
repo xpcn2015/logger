@@ -1,6 +1,6 @@
 {
   "name": "@xpcn/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node.js logger using winston",
   "main": "index.ts",
   "type": "module",
