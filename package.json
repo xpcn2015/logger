@@ -1,14 +1,16 @@
 {
   "name": "@xpcn/logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node.js logger using winston",
   "main": "index.ts",
   "type": "module",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "ts-node --experimental-specifier-resolution=node test",
-    "build" : "tsc",
-    "prepare" : "npm run build"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
